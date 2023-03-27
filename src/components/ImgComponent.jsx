@@ -1,3 +1,4 @@
+//클래스형
 import { Component } from "react";
 import jang from "../img/jang.jpg";
 class ImgComponent extends Component {
@@ -10,6 +11,8 @@ class ImgComponent extends Component {
   }
 }
 export default ImgComponent;
+
+//함수형
 // import jang from "../img/jang.jpg";
 // function ImgComponent() {
 //   return <img src={jang} className="jang" alt="logo" />;
