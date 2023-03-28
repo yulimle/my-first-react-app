@@ -21,7 +21,7 @@ import ClassProps from "./components/ClassProps";
 import ExMap from "./components/ExMap";
 import CustomList from "./components/CustomList";
 import CustomObj from "./components/CustomObj";
-import ChangeObjList from "./components/ChangeObjList";
+import ExampleChangeObj from "./components/ExampleChangeObj";
 import ChangeObj from "./components/ChangeObj";
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
   // const pororoObj = { name: "뽀로로", age: "5", nickName: "사고뭉치" };
   return (
     <div className="App">
-      <ChangeObj />
+      <ExampleChangeObj />
       {/* <CustomList arr={nameArr} />
       <CustomObj obj={pororoObj} /> */}
       {/* <ExMap /> */}
