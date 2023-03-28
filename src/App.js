@@ -14,10 +14,36 @@ import ExCount from "./components/ExCount";
 import Condition from "./components/Condition";
 import ClassState from "./components/ClassState";
 import StateAndVariable from "./components/StateAndVariable";
+import List from "./components/List";
+import PropsHeader from "./components/PropsHeader";
+import MultiProps from "./components/MultiProps";
+import ClassProps from "./components/ClassProps";
+import ExMap from "./components/ExMap";
+import CustomList from "./components/CustomList";
+import CustomObj from "./components/CustomObj";
+import ChangeObjList from "./components/ChangeObjList";
+import ChangeObj from "./components/ChangeObj";
+
 function App() {
+  // const str = "Go Naver";
+  // const nameArr = ["뽀로로", "루피", "크롱"];
+  // const pororoObj = { name: "뽀로로", age: "5", nickName: "사고뭉치" };
   return (
     <div className="App">
-      <StateAndVariable />
+      <ChangeObj />
+      {/* <CustomList arr={nameArr} />
+      <CustomObj obj={pororoObj} /> */}
+      {/* <ExMap /> */}
+      {/* <List /> */}
+      {/* <ClassProps name="뽀로로" age="5" nickName="사고뭉치" /> */}
+      {/* <PropsHeader text="hello, props world" />
+      <PropsHeader text="hi" />
+      <PropsHeader text="hohohoho" />
+      <MultiProps text={str} href="http://naver.com" userID="tetz" /> */}
+
+      {/* <List /> */}
+      {/* <ImgComponent /> */}
+      {/* <StateAndVariable /> */}
       {/* <ClassState />
       <Condition /> */}
       {/* <ExCount /> */}
@@ -26,7 +52,7 @@ function App() {
       {/* <Inline />
       <EventHandler /> */}
       {/* <MainHeader />
-      <ImgComponent />
+       
       <br />
       <BtnToNaver />
       
