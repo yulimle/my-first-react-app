@@ -1,28 +1,36 @@
-import logo from "./logo.svg"; // src 폴더 내부에 있는 이미지만 가져올 수 있음
-import "./App.css";
-import MainHeader from "./components/MainHeader";
-import ImgComponent from "./components/ImgComponent";
-import BtnToNaver from "./components/BtnToNaver";
-import ClassComponent from "./components/ClassComponent";
-import FunctionalComponent from "./components/FunctionalComponent";
-import Inline from "./components/Inline";
-import EventHandler from "./components/EventHandler";
-import ExJsx from "./components/ExJsx";
-import State from "./components/State";
-import State2 from "./components/State2";
-import ExCount from "./components/ExCount";
-import Condition from "./components/Condition";
-import ClassState from "./components/ClassState";
-import StateAndVariable from "./components/StateAndVariable";
-import List from "./components/List";
-import PropsHeader from "./components/PropsHeader";
-import MultiProps from "./components/MultiProps";
-import ClassProps from "./components/ClassProps";
-import ExMap from "./components/ExMap";
-import CustomList from "./components/CustomList";
-import CustomObj from "./components/CustomObj";
-import ExampleChangeObj from "./components/ExampleChangeObj";
-import ChangeObj from "./components/ChangeObj";
+import logo from './logo.svg'; // src 폴더 내부에 있는 이미지만 가져올 수 있음
+import './App.css';
+import MainHeader from './components/MainHeader';
+import ImgComponent from './components/ImgComponent';
+import BtnToNaver from './components/BtnToNaver';
+import ClassComponent from './components/ClassComponent';
+import FunctionalComponent from './components/FunctionalComponent';
+import Inline from './components/Inline';
+import EventHandler from './components/EventHandler';
+import ExJsx from './components/ExJsx';
+import State from './components/State';
+import State2 from './components/State2';
+import ExCount from './components/ExCount';
+import Condition from './components/Condition';
+import ClassState from './components/ClassState';
+import StateAndVariable from './components/StateAndVariable';
+import List from './components/List';
+import PropsHeader from './components/PropsHeader';
+import MultiProps from './components/MultiProps';
+import ClassProps from './components/ClassProps';
+import ExMap from './components/ExMap';
+import CustomList from './components/CustomList';
+import CustomObj from './components/CustomObj';
+import ExampleChangeObj from './components/ExampleChangeObj';
+import ChangeObj from './components/ChangeObj';
+import TestRef from './components/TestRef';
+import ChangeFocus from './components/ChangeFocus';
+import RefDomControl from './components/RefDomControl';
+import ExInputBackground from './components/ExInputBackground';
+import ExQuiz from './components/ExQuiz';
+import RandomQuiz from './components/RandomQuiz';
+import Comparing from './components/Comparing';
+import ReactFragment from './components/ReactFragment';
 
 function App() {
   // const str = "Go Naver";
@@ -30,7 +38,15 @@ function App() {
   // const pororoObj = { name: "뽀로로", age: "5", nickName: "사고뭉치" };
   return (
     <div className="App">
-      <ExampleChangeObj />
+      <ReactFragment />
+      {/* <Comparing /> */}
+      {/* <RandomQuiz /> */}
+      {/* <ExQuiz /> */}
+      {/* <ExInputBackground /> */}
+      {/* <RefDomControl /> */}
+      {/* <ChangeFocus /> */}
+      {/* <TestRef /> */}
+      {/* <ExampleChangeObj /> */}
       {/* <CustomList arr={nameArr} />
       <CustomObj obj={pororoObj} /> */}
       {/* <ExMap /> */}
