@@ -1,7 +1,11 @@
 import React from 'react';
 
 import './App.css';
-import PracticeTimerRender from './components/PracticeTimerRender';
+import StyledComponents from './components/StyledComponents';
+import TestStyled from './components/TestStyled';
+import UsingUseMemo from './components/UsingUseMemo';
+// import UseEffectFetch from './components/UseEffectFetch';
+// import PracticeTimerRender from './components/PracticeTimerRender';
 // import TimerRender from './components/TimerRender';
 // import TestUseEffect from './components/TestUseEffect';
 // import PracticeConditional from './components/PracticeConditional';
@@ -15,47 +19,7 @@ function App() {
   // const pororoObj = { name: "뽀로로", age: "5", nickName: "사고뭉치" };
   return (
     <div className="App">
-      <PracticeTimerRender />
-      {/* <TimerRender /> */}
-      {/* <TestUseEffect /> */}
-      {/* <PracticeConditional /> */}
-      {/* <ConditionalState /> */}
-      {/* <ReactFragment /> */}
-      {/* <Comparing /> */}
-      {/* <RandomQuiz /> */}
-      {/* <ExQuiz /> */}
-      {/* <ExInputBackground /> */}
-      {/* <RefDomControl /> */}
-      {/* <ChangeFocus /> */}
-      {/* <TestRef /> */}
-      {/* <ExampleChangeObj /> */}
-      {/* <CustomList arr={nameArr} />
-      <CustomObj obj={pororoObj} /> */}
-      {/* <ExMap /> */}
-      {/* <List /> */}
-      {/* <ClassProps name="뽀로로" age="5" nickName="사고뭉치" /> */}
-      {/* <PropsHeader text="hello, props world" />
-      <PropsHeader text="hi" />
-      <PropsHeader text="hohohoho" />
-      <MultiProps text={str} href="http://naver.com" userID="tetz" /> */}
-
-      {/* <List /> */}
-      {/* <ImgComponent /> */}
-      {/* <StateAndVariable /> */}
-      {/* <ClassState />
-      <Condition /> */}
-      {/* <ExCount /> */}
-      {/* <ExJsx /> */}
-      {/* <State2 /> */}
-      {/* <Inline />
-      <EventHandler /> */}
-      {/* <MainHeader />
-       
-      <br />
-      <BtnToNaver />
-      
-      <FunctionalComponent /> */}
-      {/* <ClassComponent /> */}
+      <StyledComponents />
     </div>
   );
 }

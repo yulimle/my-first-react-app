@@ -4,12 +4,10 @@ const cors = require('cors');
 const PORT = 4000;
 const server = express();
 
-console.log('!');
-
 server.use(cors());
 
 server.get('/', (req, res) => {
-  console.log('WEee');
+  console.log('hi');
   const pororoObjArr = [
     {
       name: '뽀로로',
